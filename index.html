@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pinyon+Script&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css2?family=Michroma&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="style.css"> 
+    <title>CV</title>
+    
+</head>
+<body>
+    <div class="OSNOVA">
+        <header class="BL1">
+            <div class="COL1" id="PICT">
+                <img src="img/IMG_20210919_200320.jpg" alt="Zabashta Alexey" id="AVATAR">
+            </div>
+            <div class="COL2" id="NAME">
+                <h1>Zabashta<br> Alexey</h1>
+            </div>
+            <div class="CLEAR"></div>
+        </header>
+        <main class="BL1">
+            <div class="COL1">
+                <section id="CONTACTS">
+                    <h2>Contacts</h2>
+                    <ul>
+                        <li>Phone:+375-25-766-39-10 (messengers only)</li>
+                        <li>E-mail:zabashta.alexey@bk.ru</li>
+                    </ul>
+                </section>
+                <section id="HS">
+                    <h2>Hard Skills</h2>
+                    <ul>
+                        <li>HTML, CSS (basic)</li>
+                        <li>JS (basic)</li>
+                        <li>A2 English</li>
+                    </ul>
+                </section>
+                <section id="SS"> 
+                    <h2>Soft Skills</h2>
+                    <ul>
+                        <li>Stress resistance</li>
+                        <li>Responsibility</li>
+                        <li>Trainability</li>
+                        <li>Result orientation and interaction</li>
+                    </ul>
+                </section>
+            </div>
+            <div class="COL2">
+                <section id="ABOUT">
+                    <h2>About me</h2>
+                    <p>
+                    I graduated from the Belarusian State University of Economics in 2015 with a degree in Economics and Enterprise Management, in the same year I started working as an inspector at the Bobruisk customs post. 
+                    I have mastered the necessary skills and knowledge for customs control from scratch, additionally performed the functions of the administrator of software products during the entire time of work. 
+                    In the process of work, I began to pay a lot of attention to the IT field and decided to change the field of activity.    
+                    </p>    
+                </section>
+                <section id="WE">
+                    <h2>Work experience</h2>
+                    <table>
+                        <tr>
+                        <td class="FIRST">12/2015 &mdash; 07/2021</td>
+                        <td class="SECOND">senior inspector at the Bobruisk customs post (customs officer and system administrator of the customs post).</td>   
+                        </tr>  
+                    </table>
+                </section>
+                <section id="EDUCATION">
+                    <h2>Education</h2>
+                    <table>
+                        <tr>
+                        <td class="FIRST">2011 &mdash; 2015</td>
+                        <td class="SECOND">Belarusian State University of Economics (specialty: economics and management at an industrial enterprise).</td>   
+                        </tr>  
+                    </table>
+                </section>
+            </div>
+            <div class="CLEAR"></div>
+        
+        </main>
+        <section class="CODE" id="CODE">
+            <h2>Code example:</h2>
+            <pre><code>
+                Sample code (https://www.codewars.com):
+                
+                function case() {
+                strMas=this.split(' ');
+                console.log(strMas);
+                for (var i=0;i&lt;strMas.length;i++){
+                var up=(strMas[i])[0].toUpperCase();
+                strMas[i]=strMas[i].replace((strMas[i])[0],up);
+                }
+                return strMas.join(' ');
+                };
+            </code>
+            </pre>
+        </section>
+    
+        <footer  class="BL1">
+            <nav>
+                <button type="button" onclick="window.location.href = '#PICT'">To the top</button>
+                <button type="button" onclick="window.location.href = '#CONTACTS'">Contacts</button>
+                <button type="button" onclick="window.location.href = '#ABOUT'">About me</button>
+                <button type="button" onclick="window.location.href = '#WE'">Work experience</button>             
+                
+            </nav>
+            <div>
+            <table>
+                <tr>
+                    <td class="F"><a href="https://github.com/AlexeyZabashta "><img src="img/github.png" alt="My GitHub"><br>My GitHub</a></td>
+                    <td class="F">2021</td>
+                    <td class="F"><a href="https://rs.school/js/"><img src="img/rs_school_js.svg" alt="RSS SCHOOL"></a></td>
+                </tr>
+            </table>
+        </div>
+        </footer>
+    </div>
+</body>
+</html>
